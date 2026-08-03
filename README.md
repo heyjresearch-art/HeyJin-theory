@@ -314,43 +314,45 @@ In particular, this relationship becomes relevant when comparing **phase unfoldi
 
 ## 6. Exponential Structure and Rate of Change
 
-The exponential function has the characteristic property
+The exponential function has the characteristic property:
 
-$$
-\frac{d}{dx}e^x=e^x.
-$$
+**d(eˣ)/dx = eˣ**
 
-For the complex exponential,
+This means that the rate of change of eˣ with respect to x is equal to its current function value.
 
-$$
-\frac{d}{d\theta}e^{i\theta}
-=
-ie^{i\theta}.
-$$
+For the complex exponential:
 
-The derivative is therefore the current state acted on by $i$.
+**d(eⁱᶿ)/dθ = i eⁱᶿ**
 
-Because multiplication by $i$ rotates the state by $90^\circ$ without changing its magnitude, the derivative remains tangent to the unit circle.
+The derivative is therefore the current state acted on by **i**.
 
-For the split-complex exponential,
+Since multiplication by i exchanges the two components with one sign inversion,
 
-$$
-e^{j\phi}
-=
-\cosh\phi+j\sinh\phi,
-$$
+**(a, b) → (−b, a)**
+
+the direction of change is rotated by 90° while the magnitude is preserved.
+
+For the split-complex exponential:
+
+**eʲᶲ = cosh φ + j sinh φ**
 
 and
 
-$$
-\frac{d}{d\phi}e^{j\phi}
-=
-je^{j\phi}.
-$$
+**d(eʲᶲ)/dφ = j eʲᶲ**
 
-The same formal relationship appears, but now $j$ follows the split-complex component-exchange rule.
+Here, multiplication by j follows the split-complex component-exchange rule:
 
-HeyJin Theory uses this comparison to investigate whether **differentiation, component exchange, and geometric unfolding** can be interpreted within a common structural framework.
+**(a, b) → (b, a)**
+
+The components are exchanged without sign inversion.
+
+The two exponential structures therefore have a similar mathematical form but follow different component operations:
+
+**i operation → component exchange with sign inversion → circular rotation**
+
+**j operation → component exchange without sign inversion → hyperbolic change**
+
+HeyJin Theory examines whether these relationships between **exponential structure, differentiation, component exchange, and geometry** can be understood within a common phase-based framework.
 
 ---
 
