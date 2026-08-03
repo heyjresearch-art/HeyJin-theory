@@ -394,15 +394,11 @@ Conventional datasets often represent observations as measured variables indexed
 
 HeyJin Theory instead investigates a representation in which time is included as a **common progression coordinate**, while each measured variable occupies a distinct state axis.
 
-A general representation can be written as
+A general representation can be written as:
 
-$$
-\mathbf{s}(t)
-=
-t+i_1s_1(t)+i_2s_2(t)+\cdots+i_ns_n(t).
-$$
+**s(t) = t + i₁s₁(t) + i₂s₂(t) + ... + iₙsₙ(t)**
 
-Each $s_k(t)$ represents a time-dependent state component.
+Each sₖ(t) represents a time-dependent state component.
 
 The resulting structure is interpreted not simply as a collection of independent measurements, but as a **multi-axis state evolving along a common time coordinate**.
 
@@ -410,33 +406,25 @@ The resulting structure is interpreted not simply as a collection of independent
 
 ## 9. Derivative-Based State Structure
 
-For dynamic analysis, the state representation can be extended to include derivatives:
+For dynamic analysis, the state representation can be extended to include its first and second derivatives:
 
-$$
-\mathbf{z}(t)
-=
-\left(
-\mathbf{s}(t),
-\dot{\mathbf{s}}(t),
-\ddot{\mathbf{s}}(t)
-\right).
-$$
+**z(t) = (s(t), s′(t), s″(t))**
 
 These terms provide different structural information.
 
-### State — $\mathbf{s}(t)$
+### State — s(t)
 
 Describes the current multi-axis configuration.
 
-### First Derivative — $\dot{\mathbf{s}}(t)$
+### First Derivative — s′(t)
 
 Describes the direction and rate of state change.
 
-### Second Derivative — $\ddot{\mathbf{s}}(t)$
+### Second Derivative — s″(t)
 
 Describes changes in that rate and can help characterize acceleration, curvature, restoration tendencies, instability, and departure from previously stable trajectories.
 
-Instead of analyzing only instantaneous measured values, an AI system can therefore receive information about
+Instead of analyzing only instantaneous measured values, an AI system can therefore receive information about:
 
 **State + Direction + Structural Change**
 
