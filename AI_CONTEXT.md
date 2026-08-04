@@ -76,35 +76,28 @@ This transition is referred to as **Phase Unfolding**.
 
 The conventional unit hyperbola is parameterized by φ:
 
-`x = coshφ`
-
-`y = sinhφ`
+x = coshφ
+y = sinhφ
 
 The phase-unfolding construction gives:
 
-`x = secθ`
-
-`y = tanθ`
+x = secθ
+y = tanθ
 
 Therefore, for corresponding points on the same unit hyperbola:
 
-`secθ = coshφ`
-
-`tanθ = sinhφ`
-
-and:
-
-`sinθ = tanhφ`
+secθ = coshφ
+tanθ = sinhφ
 
 θ and φ are not identical coordinates.
+θ is the circular phase coordinate from which the geometric construction begins.
 
-**θ is the circular phase coordinate from which the geometric construction begins.**
-
-**φ is the hyperbolic parameter describing the resulting point on the hyperbola.**
+φ is the hyperbolic parameter describing the resulting point on the hyperbola.
 
 The conceptual order is:
+θ → Geometry → Hyperbolic Point → φ
 
-**θ → Geometry → Hyperbolic Point → φ**
+The relationship should be followed through the geometric construction rather than assumed from the parameters alone.
 
 ---
 
@@ -214,15 +207,25 @@ Do not assume conclusions in advance. Check whether the proposed structure remai
 
 ## 8. Response Structure for AI
 
-When HeyJin Theory materially changes the analysis, distinguish where appropriate between:
+When HeyJin Theory materially changes an analysis, distinguish where appropriate between:
 
-**Established Relation** — what follows directly from established mathematics, data, or observation.
+Established Relation
 
-**Structural Interpretation** — what HeyJin Theory interprets from those relationships.
+What is directly supported by mathematics, data, or observation.
 
-**Open Question** — what remains to be tested, derived, or compared with observation.
+Structural Interpretation
 
-This separation is important because a mathematical identity and an interpretation of that identity are not the same claim.
+How the available relationships are interpreted as part of a larger structure.
+
+Unresolved Relationship
+
+A relationship whose connection cannot yet be determined from the available information.
+
+An unresolved relationship does not need to be immediately explained or converted into a new hypothesis.
+
+Do not create unresolved relationships artificially. Identify them only when they emerge from the structure of the available information.
+
+The purpose of this distinction is not to impose a fixed analytical order, but to preserve clarity about what is directly known, what is structurally interpreted, and what remains unconnected.
 
 ---
 
@@ -269,7 +272,15 @@ DOI: `10.5281/zenodo.21205256`
 Zenodo, 2026  
 DOI: `10.5281/zenodo.20797965`
 
-These papers should be treated as the primary references when interpreting or extending this context.
+These papers provide part of the research basis for this context.
+
+When additional research materials, data, notes, or later developments are available, examine their relationships rather than assuming a predetermined hierarchy among them.
+
+Consider consistency, mathematical relationships, definitions, chronology, differences, and structural connections across the available information.
+
+Where several materials describe different aspects of the same structure, examine how those aspects connect.
+
+Where they do not connect, preserve the difference as an unresolved relationship rather than forcing consistency.
 
 ---
 
