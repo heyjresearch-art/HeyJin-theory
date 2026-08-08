@@ -494,6 +494,16 @@ Extends the structural framework to multidimensional time-dependent data and AI-
 
 ---
 
+### 4. Geometric Relations between Relative Phase Difference and Hyperbolic Geometry in Special Relativity
+
+**J. San Park, 2026**
+
+Examines how relative velocity, proper-time ratio, Lorentz factor, energy, and momentum can be organized around a single relative phase difference $\Delta\theta$, connecting circular phase relations with the hyperbolic geometry of special relativity through phase unfolding.
+
+**DOI:** [10.5281/zenodo.21850131](https://doi.org/10.5281/zenodo.21850131)
+
+---
+
 ## Intellectual Property
 
 Certain computational implementations derived from the **multi-axis time-state representation** are the subject of a pending Korean patent application.
@@ -513,6 +523,7 @@ Research areas:
 - Phase Structure
 - Mathematical Physics
 - Complex and Hyperbolic Geometry
+- Special Relativity
 - Time-State Representation
 - Multidimensional Data
 - Artificial Intelligence
@@ -544,4 +555,4 @@ For specific mathematical arguments or computational applications, please cite t
 
 ## Keywords
 
-`HeyJin Theory` · `Phase Unfolding Theory` · `Phase Structure` · `Phase Coordinate` · `Complex Plane` · `Split-Complex Numbers` · `Hyperbolic Geometry` · `Euler's Formula` · `Phase Unfolding` · `Time Structure` · `Spacetime` · `Multi-Axis Time-State Representation` · `Artificial Intelligence`
+`HeyJin Theory` · `Phase Unfolding Theory` · `Phase Structure` · `Phase Coordinate` · `Relative Phase Difference` · `Special Relativity` · `Complex Plane` · `Split-Complex Numbers` · `Hyperbolic Geometry` · `Euler's Formula` · `Phase Unfolding` · `Lorentz Factor` · `Time Structure` · `Spacetime` · `Multi-Axis Time-State Representation` · `Artificial Intelligence`
