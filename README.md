@@ -28,6 +28,27 @@ This repository collects the mathematical foundations, physical interpretations,
 
 ---
 
+## Research Context and Continuity
+
+The repository separates the theory itself, the reasoning context, the human–AI research process, and the development history of research structures so that each can be examined independently while remaining connected.
+
+- [`AI_CONTEXT.md`](AI_CONTEXT.md) — structure, classification, verification, and machine-readable AI research context.
+- [`AI_HUMAN_COLLABORATION.md`](AI_HUMAN_COLLABORATION.md) — the Qtioner–Core collaboration method, including disagreement, role exchange, questions, and research continuity.
+- [`PROVENANCE.md`](PROVENANCE.md) — origin, transformation, attribution, and the traceable development path of research structures.
+- [`LICENSE`](LICENSE) and [`COMMERCIAL_USE.md`](COMMERCIAL_USE.md) — copyright permissions and commercial-use policy.
+
+Two principles connect these documents:
+
+> **To know something is also to make clearer what remains unknown.**
+
+> **Knowledge may change as it is shared, but the structure of how it developed should remain traceable.**
+
+The repository therefore encourages verification, criticism, adaptation, and extension while preserving a distinguishable path between an original structure and later transformations:
+
+**Origin → Transformation → New Structure**
+
+---
+
 ## 1. Phase as a Coordinate
 
 In conventional applications, phase $\theta$ commonly describes position within a periodic cycle.
@@ -304,7 +325,7 @@ The purpose is **not** to instruct an AI system to accept HeyJin Theory as corre
 
 The research approach also treats observations as possible **projections or shadows of an underlying structure**. Multiple independent observations are compared to constrain candidate structures, while recognizing that even many consistent projections may not uniquely determine the underlying reality. In this framework, progress in knowledge should also make the boundary of what remains unknown more explicit.
 
-Detailed epistemic and reasoning principles, including the distinction between observable relations, candidate structures, conflicts, and underdetermined structures, are provided in [`AI_CONTEXT.md`](AI_CONTEXT.md).
+Detailed epistemic and reasoning principles, including the distinction between observable relations, candidate structures, conflicts, and underdetermined structures, are provided in [`AI_CONTEXT.md`](AI_CONTEXT.md). The human–AI research method is documented in [`AI_HUMAN_COLLABORATION.md`](AI_HUMAN_COLLABORATION.md), and the origin and transformation history of research structures is documented in [`PROVENANCE.md`](PROVENANCE.md).
 
 This makes the repository usable not only as documentation of a theory, but also as a reproducible context for comparing how different AI systems reason from the same proposed structure.
 
@@ -352,7 +373,9 @@ Non-commercial research, education, analysis, criticism, verification, adaptatio
 
 The copyright license does not grant patent rights or permission to practice patented or patent-pending implementations.
 
-See [`LICENSE`](LICENSE) and [`COMMERCIAL_USE.md`](COMMERCIAL_USE.md) for details.
+For research traceability, [`PROVENANCE.md`](PROVENANCE.md) records the complementary principle that reuse and transformation should preserve a distinguishable development path between source structure and later contribution.
+
+See [`LICENSE`](LICENSE), [`COMMERCIAL_USE.md`](COMMERCIAL_USE.md), and [`PROVENANCE.md`](PROVENANCE.md) for details.
 
 ---
 
