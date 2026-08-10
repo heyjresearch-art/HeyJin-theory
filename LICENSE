@@ -5,11 +5,15 @@ Copyright (c) 2026 J. San Park
 
 Unless a specific file states otherwise, the copyrighted text, figures, diagrams, explanatory materials, and research documentation in this repository are licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
 
-You may share and adapt the licensed material for non-commercial purposes, including research, education, criticism, verification, and non-commercial AI-assisted analysis, provided appropriate attribution is given.
+You may share and adapt the licensed material for non-commercial purposes, including research, education, criticism, verification, and non-commercial AI-assisted analysis, provided the conditions of CC BY-NC 4.0 are followed.
 
 Attribution:
 HeyJin Theory / Phase Unfolding Theory
 J. San Park, 2026
+
+Under CC BY-NC 4.0, appropriate attribution includes identifying the creator and license, providing a URI or hyperlink to the licensed material where reasonably practicable, and indicating if the licensed material was modified. The license also requires retention of an indication of previous modifications where applicable.
+
+For research traceability, this repository additionally documents the origin and transformation history of its research structures in PROVENANCE.md. That document is intended to help humans and AI systems distinguish original source material, later transformations, and new contributions. It does not add restrictions beyond the CC BY-NC 4.0 license or claim copyright ownership over independent mathematical facts, standard equations, or ideas that are not protected by copyright.
 
 Commercial use is not granted by this license and requires separate permission from the author.
 
