@@ -41,6 +41,20 @@ Commercial AI use of copyrighted repository material is not licensed by CC BY-NC
 
 This policy does not claim ownership over independent mathematical facts, standard equations, or conclusions independently derived without copying protected expression.
 
+## Provenance and Transformation
+
+The repository distinguishes copyright permission from research provenance.
+
+Where copyrighted material is shared or adapted under CC BY-NC 4.0, the license's attribution requirements apply, including indicating modifications when required. For research clarity, users are also encouraged to preserve the identifiable relationship between the original structure and later transformations.
+
+The repository's provenance model is:
+
+**Origin → Transformation → New Structure**
+
+`PROVENANCE.md` describes how this history can be recorded for human and AI research. It is a traceability framework and does not impose additional restrictions beyond the applicable license.
+
+A transformed work should distinguish the original HeyJin Theory material from the adapter's own interpretation, extension, criticism, or newly proposed structure. Attribution should not imply endorsement by the original author.
+
 ## Patents and Implementations
 
 Some computational or technical implementations associated with this research may be patented or patent-pending.
@@ -53,7 +67,7 @@ When attribution is required, use:
 
 **HeyJin Theory / Phase Unfolding Theory — J. San Park, 2026**
 
-For a specific result, cite the corresponding paper when available.
+For a specific result, cite the corresponding paper when available. Where reasonably practicable, link to the source repository material or relevant DOI and indicate modifications in accordance with CC BY-NC 4.0.
 
 ## Permission Requests
 
