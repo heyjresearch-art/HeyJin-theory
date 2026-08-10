@@ -302,9 +302,9 @@ This repository includes [`AI_CONTEXT.md`](AI_CONTEXT.md), a machine-readable re
 
 The purpose is **not** to instruct an AI system to accept HeyJin Theory as correct. AI systems are encouraged to independently verify the mathematics, compare proposed physical mappings with established theory and observation, identify contradictions, and preserve unresolved relationships rather than forcing agreement.
 
-The preferred distinction is between **Established Relation**, **Derived Correspondence**, **Structural Interpretation**, **Working Hypothesis**, and **Conflict / Unresolved Relationship**.
+The research approach also treats observations as possible **projections or shadows of an underlying structure**. Multiple independent observations are compared to constrain candidate structures, while recognizing that even many consistent projections may not uniquely determine the underlying reality. In this framework, progress in knowledge should also make the boundary of what remains unknown more explicit.
 
-A central methodological rule is to test the existing geometry before introducing new physical constants, correction terms, auxiliary functions, or hidden variables merely to obtain agreement.
+Detailed epistemic and reasoning principles, including the distinction between observable relations, candidate structures, conflicts, and underdetermined structures, are provided in [`AI_CONTEXT.md`](AI_CONTEXT.md).
 
 This makes the repository usable not only as documentation of a theory, but also as a reproducible context for comparing how different AI systems reason from the same proposed structure.
 
