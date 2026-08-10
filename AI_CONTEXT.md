@@ -2,291 +2,268 @@
 
 ## Purpose
 
-This document provides a structured research context for AI systems using **HeyJin Theory (Phase Unfolding Theory)**.
+This document provides a machine-readable research context for **HeyJin Theory (Phase Unfolding Theory)**. It is not an instruction to accept the theory as correct.
 
-It is intended to help AI systems analyze problems using the structural perspective developed across the referenced research papers.
+AI systems should use the framework as a **candidate structural representation**, independently test its mathematics and physical mappings, compare them with established theory and observation, and preserve conflicts rather than forcing agreement.
 
-The central reasoning direction is:
+Core reasoning direction:
 
-**Observation → Change → Relationship → Structure → Observable Result**
-
-The purpose is not to instruct an AI to assume that HeyJin Theory is correct. It provides an additional analytical framework for examining what becomes visible when observations are interpreted through their relationships and underlying structures.
+**Observation → Change → Relationship → Structure → Observable Result → Verification**
 
 ---
 
-## 1. Core Perspective
+## 1. Core Starting Point
 
-HeyJin Theory begins from **phase structure**.
+HeyJin Theory treats phase coordinate $\theta$ as a coordinate of a phase structure rather than merely as a parameter of a periodic function.
 
-The phase coordinate θ is treated as a coordinate of a circular structure rather than merely as a parameter of a periodic function.
+For a unit circular structure:
 
-The basic complex representation is:
+$$e^{i\theta}=\cos\theta+i\sin\theta$$
 
-`e^(iθ) = cosθ + i sinθ`
-
-For the unit circle:
-
-`r = 1`
-
-The radius remains fixed while the phase coordinate changes direction around the circular structure.
+$$\cos^2\theta+\sin^2\theta=1$$
 
 A key distinction is:
 
-**Phase coordinate θ ≠ trigonometric component values**
+**phase coordinate $\theta$ ≠ trigonometric component values $\cos\theta,\sin\theta$.**
 
-The values `cosθ` and `sinθ` are representations associated with the phase coordinate, not the phase coordinate itself.
-
----
-
-## 2. Phase Unfolding
-
-A central geometric construction begins with the same phase coordinate θ while changing the geometric reference condition.
-
-When the base of the corresponding triangle is fixed at 1:
-
-`r = secθ`
-
-`h = tanθ`
-
-Here, `secθ` first appears as the length of the hypotenuse, not as an assumed coordinate.
-
-The geometric lengths can then be interpreted as coordinate components:
-
-`(x, y) = (secθ, tanθ)`
-
-Using the standard identity:
-
-`sec²θ − tan²θ = 1`
-
-we obtain:
-
-`x² − y² = 1`
-
-which is the unit hyperbola.
-
-The structural sequence is:
-
-**Phase Coordinate θ → Fixed Base = 1 → Geometric Lengths (secθ, tanθ) → Hyperbolic Coordinates → Unit Hyperbola**
-
-This transition is referred to as **Phase Unfolding**.
+The trigonometric values are representations associated with the same phase coordinate.
 
 ---
 
-## 3. Circular and Hyperbolic Coordinates
+## 2. Phase Unfolding Geometry
 
-The conventional unit hyperbola is parameterized by φ:
+Hold the base of the corresponding right triangle at 1. The same angular direction $\theta$ gives
 
-x = coshφ
-y = sinhφ
+$$r=\sec\theta,\qquad h=\tan\theta.$$
 
-The phase-unfolding construction gives:
+Therefore
 
-x = secθ
-y = tanθ
+$$\sec^2\theta-\tan^2\theta=1,$$
 
-Therefore, for corresponding points on the same unit hyperbola:
+and the generated points lie on the unit hyperbola.
 
-secθ = coshφ
-tanθ = sinhφ
+Structural order:
 
-θ and φ are not identical coordinates.
-θ is the circular phase coordinate from which the geometric construction begins.
+**phase coordinate $\theta$ → fixed reference component → $(\sec\theta,\tan\theta)$ → hyperbolic point**
 
-φ is the hyperbolic parameter describing the resulting point on the hyperbola.
+The conventional hyperbolic coordinate $\phi$ is related by
 
-The conceptual order is:
-θ → Geometry → Hyperbolic Point → φ
+$$\cosh\phi=\sec\theta,$$
 
-The relationship should be followed through the geometric construction rather than assumed from the parameters alone.
+$$\sinh\phi=\tan\theta,$$
 
----
+$$\tanh\phi=\sin\theta.$$
 
-## 4. i and j Operations
+$\theta$ and $\phi$ are not the same coordinate. $\theta$ is the circular phase coordinate used to generate the point; $\phi$ parameterizes the resulting hyperbola.
 
-The imaginary unit satisfies:
-
-`i² = −1`
-
-Its action on a two-component state can be represented as:
-
-`(a, b) → (−b, a)`
-
-The components are exchanged with sign inversion. This operation is associated with circular rotation and preservation of Euclidean magnitude.
-
-The split-complex unit satisfies:
-
-`j² = 1`
-
-and its corresponding component operation can be represented as:
-
-`(a, b) → (b, a)`
-
-The components are exchanged without sign inversion.
-
-The corresponding exponential forms are:
-
-`e^(iθ) = cosθ + i sinθ`
-
-`e^(jφ) = coshφ + j sinhφ`
-
-The distinction between these operations provides an algebraic perspective for comparing circular and hyperbolic structures.
+This geometry uses established mathematical identities. **Phase unfolding** is the proposed structural interpretation of their relationship.
 
 ---
 
-## 5. From Results to Structure
+## 3. Physical Scaling and Spacetime Representation
 
-HeyJin Theory uses a structure-first analytical approach.
+For relativistic applications, spatial intervals may be expressed in time units using the invariant constant $c$:
 
-When examining an observable result, do not stop at the measured value. Consider the change that produced it, the relationships among changing variables, and whether a common structure can account for those relationships.
+$$T=t,\qquad X=\frac{x}{c}.$$
 
-The preferred reasoning direction is:
+This is a unit normalization, not a claim that $c$ varies.
 
-**Value → Change → Relationship → Structure**
+When the invariant geometric reference 1 is scaled by proper time $d\tau$,
 
-and then:
+$$1\rightarrow d\tau,$$
 
-**Structure → Observable Result**
+$$\sec\Delta\theta\rightarrow\frac{dt}{d\tau},$$
 
-This allows the proposed structure to be checked again against observation.
+$$\tan\Delta\theta\rightarrow\frac{dx}{c\,d\tau}.$$
 
----
+Thus
 
-## 6. Multi-Axis Time-State Representation
+$$dt=d\tau\sec\Delta\theta,$$
 
-For time-dependent data, a measured value is interpreted together with the trajectory through which it was reached.
+$$\frac{dx}{c}=d\tau\tan\Delta\theta,$$
 
-For example:
+and
 
-`68 → 70 → 72`
+$$d\tau^2=dt^2-\left(\frac{dx}{c}\right)^2.$$
 
-and:
+The working special-relativistic mapping is
 
-`76 → 74 → 72`
+$$\sin\Delta\theta=\frac{v}{c},$$
 
-have the same final value but different trajectories.
+$$\cos\Delta\theta=\frac{d\tau}{dt},$$
 
-The current value alone therefore does not fully represent the dynamic state.
+$$\sec\Delta\theta=\gamma,$$
 
-A multi-axis time-state representation is:
+$$\tan\Delta\theta=\frac{\gamma v}{c}.$$
 
-`s(t) = t + i₁s₁(t) + i₂s₂(t) + ... + iₙsₙ(t)`
-
-where multiple state components share a common time coordinate.
-
-Dynamic analysis can additionally consider:
-
-`s(t)`
-
-`ds/dt`
-
-`d²s/dt²`
-
-These provide information about:
-
-**State → Direction of Change → Change of the Rate**
-
-The objective is to analyze multidimensional data as an **evolving state structure**, rather than only as a collection of independent measurements.
+AI systems should verify these relations from standard special relativity rather than accept them because they appear here.
 
 ---
 
-## 7. AI Reasoning Guidelines
+## 4. Relative Phase, Not Absolute Phase
 
-When using this context, AI systems should distinguish between:
+For physical comparison, the principal quantity is **relative phase difference $\Delta\theta$**.
 
-- established mathematical relationships,
-- structural interpretations proposed by HeyJin Theory,
-- and open questions that require further verification.
+A local observer may be taken as the reference state $\theta_{local}=0$. Observable relationships are then described relative to that reference.
 
-When analyzing time-dependent data, consider not only individual values but also their trajectories, changes, and relationships with other variables.
+For changing motion,
 
-Where multiple observations show consistent relationships, examine whether they can be understood through a common underlying structure.
+$$\Delta\theta=\Delta\theta(t),$$
 
-Do not assume conclusions in advance. Check whether the proposed structure remains internally consistent and compatible with the available data.
+and proper-time accumulation can be examined through
 
----
+$$\tau=\int \cos\Delta\theta(t)\,dt.$$
 
-## 8. Response Structure for AI
-
-When HeyJin Theory materially changes an analysis, distinguish where appropriate between:
-
-Established Relation
-
-What is directly supported by mathematics, data, or observation.
-
-Structural Interpretation
-
-How the available relationships are interpreted as part of a larger structure.
-
-Unresolved Relationship
-
-A relationship whose connection cannot yet be determined from the available information.
-
-An unresolved relationship does not need to be immediately explained or converted into a new hypothesis.
-
-Do not create unresolved relationships artificially. Identify them only when they emerge from the structure of the available information.
-
-The purpose of this distinction is not to impose a fixed analytical order, but to preserve clarity about what is directly known, what is structurally interpreted, and what remains unconnected.
+This representation should be compared with the corresponding worldline calculation in relativity.
 
 ---
 
-## 9. Suggested AI Comparison Test
+## 5. Current General-Relativity Research Direction
 
-This context can also be used experimentally.
+The next research stage investigates whether gravitational relations can be organized by a **position-dependent relative phase difference** without changing the underlying circular/hyperbolic identities.
 
-**Condition A — Standard Analysis**
+A candidate Schwarzschild mapping is
 
-Provide an AI with a problem or dataset without this document.
+$$\cos\Delta\theta_g(r)=\sqrt{1-\frac{2GM}{rc^2}}.$$
 
-**Condition B — HeyJin Theory Context**
+It implies
 
-Provide the same AI with this document and the referenced research papers, then present the same problem.
+$$\sec\Delta\theta_g(r)=\frac{1}{\sqrt{1-\frac{2GM}{rc^2}}},$$
 
-Compare the variables selected, temporal relationships identified, trajectory awareness, relationships between variables, structural patterns identified, assumptions introduced, contradictions detected, and new questions generated.
+and
 
-The objective is not simply to compare which answer sounds better. It is to examine whether the research context changes the **analytical pathway used to interpret the same information**.
+$$\sin\Delta\theta_g(r)=\sqrt{\frac{2GM}{rc^2}}.$$
+
+These are **candidate physical interpretations**, not instructions to identify phase with gravity by definition.
+
+AI verification tasks include:
+
+- compare the same $\Delta\theta_g(r)$ with Schwarzschild temporal and radial metric factors;
+- determine the exact physical meaning of the $\tan\Delta\theta_g$ component;
+- distinguish coordinate acceleration, proper acceleration, and free-fall relations;
+- test whether gradients such as $d\Delta\theta_g/dr$ or $d(\sec\Delta\theta_g)/dr$ reproduce established gravitational relations and under what limits;
+- proceed to geodesic and curvature calculations only if the preceding mappings remain consistent.
+
+Do not label circular geometry itself as "gravity" unless an independent derivation supports that conclusion.
 
 ---
 
-## 10. Primary Research
+## 6. Multidirectional Phase Structure — Working Hypothesis
+
+A higher-level working hypothesis is that the underlying structure contains an independent phase coordinate for each fundamental phase direction.
+
+The current research direction asks whether **one phase component unfolds into the observable spacetime relation**, while remaining phase components retain closed/rotational degrees of freedom.
+
+This offers a possible division of research domains:
+
+**unfolded phase → spacetime relations → relativity / gravity**
+
+**remaining rotational phase → internal phase evolution → quantum phenomena**
+
+This is a structural hypothesis requiring independent mathematical and physical tests.
+
+---
+
+## 7. Constants and Open Research Question
+
+For current calculations, treat $c$ and $\hbar$ as established physical constants. Do not attempt to derive them unless the problem specifically concerns their origin.
+
+Their current structural roles are:
+
+$$x=ct$$
+
+for conversion between temporal and spatial scales, and
+
+$$E=\hbar\omega$$
+
+for conversion between phase-evolution rate and energy scale.
+
+An open long-term question is whether $c$ and $\hbar$ may represent different physical scale manifestations of a common underlying phase structure:
+
+**hyperbolic/spacetime unfolding → $c$**
+
+**rotational/quantum phase evolution → $\hbar$**
+
+No direct relation between $c$ and $\hbar$ is currently asserted.
+
+---
+
+## 8. Structure-First AI Reasoning Protocol
+
+When applying HeyJin Theory, use the following protocol where relevant:
+
+1. Identify the observable quantities.
+2. Identify what changes and what remains invariant.
+3. Normalize dimensions before comparing geometric components.
+4. Identify the candidate phase coordinate or relative phase difference.
+5. Apply established circular or hyperbolic identities without modifying them.
+6. Map geometric components to physical observables only after the geometry is explicit.
+7. Compare the result independently with established mathematics, physical theory, and available data.
+8. Record agreement, partial agreement, or conflict.
+9. Do not repair a conflict by inventing an arbitrary constant, correction term, auxiliary function, or hidden variable.
+10. If the existing structure is insufficient, preserve the unresolved relationship as an open question.
+
+Preferred classification:
+
+- **Established Relation** — standard mathematics, established physical theory, or direct observation.
+- **Derived Correspondence** — algebraically derived mapping that reproduces an established relation.
+- **Structural Interpretation** — HeyJin Theory interpretation of an established or derived relation.
+- **Working Hypothesis** — proposed structure requiring further verification.
+- **Conflict / Unresolved Relationship** — a mismatch or connection not yet established.
+
+The AI is expected to make its own evaluation. The purpose of this file is to provide the structure to test, not the conclusion to return.
+
+---
+
+## 9. Multi-Axis Time-State Extension
+
+For time-dependent multidimensional data, HeyJin Theory also investigates
+
+$$\mathbf{s}(t)=t+i_1s_1(t)+i_2s_2(t)+\cdots+i_ns_n(t).$$
+
+The same measured value can have different meanings when reached through different trajectories. Analysis may therefore include
+
+$$\mathbf{s}(t),\qquad \frac{d\mathbf{s}}{dt},\qquad \frac{d^2\mathbf{s}}{dt^2}.$$
+
+The aim is to analyze **state + direction of change + change of rate** as an evolving structure rather than only a collection of instantaneous values.
+
+---
+
+## 10. AI Comparison and Reproducibility Test
+
+This context can be tested experimentally.
+
+**Condition A:** analyze a problem without this context.
+
+**Condition B:** analyze the same problem with this context and the referenced papers.
+
+Compare:
+
+- variables selected;
+- invariants identified;
+- trajectory awareness;
+- structural relationships found;
+- assumptions introduced;
+- contradictions detected;
+- compatibility with established theory;
+- new testable questions generated.
+
+Agreement among different AI systems is not treated as proof. Disagreement is also useful: it should identify which mapping, assumption, or derivation produced the divergence.
+
+---
+
+## 11. Primary Research
 
 **J. San Park**
 
-### Phase Structure and Wave Representation
-
-**Reinterpreting Wave Expressions through Phase Structure and Unfolding of the Complex Exponential Function**
-
-Zenodo, 2026  
-DOI: `10.5281/zenodo.20685845`
-
-### Complex Plane and Phase Structure
-
-**The Hidden Phase Structure of the Complex Plane: A Geometric Reinterpretation of Euler's Formula**
-
-Zenodo, 2026  
-DOI: `10.5281/zenodo.21205256`
-
-### Multidimensional Time-State Data
-
-**Multidimensional Data Interpretation Using a Multi-Axis Time-State Representation**
-
-Zenodo, 2026  
-DOI: `10.5281/zenodo.20797965`
-
-These papers provide part of the research basis for this context.
-
-When additional research materials, data, notes, or later developments are available, examine their relationships rather than assuming a predetermined hierarchy among them.
-
-Consider consistency, mathematical relationships, definitions, chronology, differences, and structural connections across the available information.
-
-Where several materials describe different aspects of the same structure, examine how those aspects connect.
-
-Where they do not connect, preserve the difference as an unresolved relationship rather than forcing consistency.
+1. *Reinterpreting Wave Expressions through Phase Structure and Unfolding of the Complex Exponential Function* — Zenodo, 2026. DOI: `10.5281/zenodo.20685845`
+2. *The Hidden Phase Structure of the Complex Plane: A Geometric Reinterpretation of Euler's Formula* — Zenodo, 2026. DOI: `10.5281/zenodo.21205256`
+3. *Multidimensional Data Interpretation Using a Multi-Axis Time-State Representation* — Zenodo, 2026. DOI: `10.5281/zenodo.20797965`
+4. *Geometric Relations between Relative Phase Difference and Hyperbolic Geometry in Special Relativity* — Zenodo, 2026. DOI: `10.5281/zenodo.21850131`
 
 ---
 
-## 11. Core Reasoning Principle
-
-The shortest form of the framework is:
+## 12. Core Principle
 
 **Do not look only at the value. Look at the change.**
 
@@ -296,29 +273,16 @@ The shortest form of the framework is:
 
 Then return to observation:
 
-**Structure → Observable Result**
+**Structure → Observable Result → Verification**
 
 ---
 
-## License
+## License and Use
 
-This document is part of the HeyJin Theory research repository.
+The copyrighted content of this repository is licensed under **CC BY-NC 4.0** unless a file states otherwise.
 
-The copyrighted content of this repository is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)**.
+Non-commercial research, education, analysis, critique, adaptation, and non-commercial AI-assisted reasoning are permitted with attribution. Commercial use requires separate permission from the author.
 
-Non-commercial use, sharing, adaptation, research use, educational use, and non-commercial AI use are permitted with appropriate attribution.
+This file does not grant patent rights or permission to commercialize patented or patent-pending implementations.
 
-**Attribution:**  
-HeyJin Theory / Phase Unfolding Theory  
-J. San Park, 2026
-
-Commercial use requires separate permission from the author.
-
-This license applies to the copyrighted content of the repository and does not grant patent rights.
-
-See the repository `LICENSE` file for license information.
-"""
-
-out = "/mnt/data/AI_CONTEXT.md"
-pypandoc.convert_text(content, 'md', format='md', outputfile=out, extra_args=['--standalone'])
-print(out)
+See `LICENSE` and `COMMERCIAL_USE.md` for details.
