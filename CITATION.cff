@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: "If you use this repository or the HeyJin Theory framework in research, please cite this repository and, when applicable, the specific research paper associated with the result or method used."
+title: "HeyJin Theory: Phase Unfolding Theory"
+type: software
+authors:
+  - family-names: "Park"
+    given-names: "J. San"
+    orcid: "https://orcid.org/0009-0004-4448-3240"
+date-released: 2026-08-10
+url: "https://github.com/heyjresearch-art/Heyjin-theory"
+license: "CC-BY-NC-4.0"
+keywords:
+  - "HeyJin Theory"
+  - "Phase Unfolding Theory"
+  - "Phase Structure"
+  - "Phase Coordinate"
+  - "Relative Phase Difference"
+  - "Hyperbolic Geometry"
+  - "Special Relativity"
+  - "Time-State Representation"
+  - "Artificial Intelligence"
+references:
+  - type: article
+    title: "Reinterpreting Wave Expressions through Phase Structure and Unfolding of the Complex Exponential Function"
+    authors:
+      - family-names: "Park"
+        given-names: "J. San"
+    year: 2026
+    doi: "10.5281/zenodo.20685845"
+  - type: article
+    title: "The Hidden Phase Structure of the Complex Plane: A Geometric Reinterpretation of Euler's Formula"
+    authors:
+      - family-names: "Park"
+        given-names: "J. San"
+    year: 2026
+    doi: "10.5281/zenodo.21205256"
+  - type: article
+    title: "Multidimensional Data Interpretation Using a Multi-Axis Time-State Representation"
+    authors:
+      - family-names: "Park"
+        given-names: "J. San"
+    year: 2026
+    doi: "10.5281/zenodo.20797965"
+  - type: article
+    title: "Geometric Relations between Relative Phase Difference and Hyperbolic Geometry in Special Relativity"
+    authors:
+      - family-names: "Park"
+        given-names: "J. San"
+    year: 2026
+    doi: "10.5281/zenodo.21850131"
