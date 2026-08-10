@@ -114,7 +114,7 @@ The research process therefore benefits from distinguishing among:
 - conflicts;
 - ideas that have been revised or abandoned.
 
-Documents such as `AI_CONTEXT.md`, research papers, figures, and repository history provide a shared external memory that allows later analysis to begin from the actual state of the research.
+Documents such as `AI_CONTEXT.md`, research papers, figures, `PROVENANCE.md`, and repository history provide a shared external memory that allows later analysis to begin from the actual state of the research.
 
 Continuity should preserve the **history of reasoning**, not freeze earlier conclusions.
 
@@ -152,7 +152,47 @@ Knowledge can move through the network rather than belonging permanently to one 
 
 ---
 
-## 9. Mutual Improvement Rather Than Competitive Replacement
+## 9. Knowledge, Questions, and the Unknown
+
+The collaboration does not treat an answer as the final state of knowledge.
+
+> **To know something is also to make clearer what remains unknown.**
+
+As a relationship becomes better understood, the boundary between what is supported, what is uncertain, and what has not yet been explained can become more precise. In this sense, knowledge does not merely reduce the unknown. It gives the unknown a clearer boundary.
+
+A useful research cycle can therefore be written as:
+
+**Unknown → Question → Investigation → Understanding → Clearer Unknown → New Question**
+
+A question that exposes a hidden assumption, separates two previously mixed concepts, or reveals the boundary of an explanation can be a meaningful research result even before a final answer exists.
+
+This is also why neither Qtioner nor Core is treated as the final authority. The collaboration continues as long as either participant can reveal a relationship, contradiction, or question that the other did not yet see.
+
+A developed intelligence may therefore be characterized not only by its ability to answer questions, but also by its ability to **recognize where a new question should begin**.
+
+---
+
+## 10. Preserve the Structure of How Knowledge Develops
+
+Knowledge can be shared, criticized, transformed, and extended without erasing its history.
+
+> **Knowledge may change as it is shared, but the structure of how it developed should remain traceable.**
+
+For research continuity, it is useful to distinguish:
+
+**Origin → Transformation → New Structure**
+
+The origin identifies where a structure entered the research record. The transformation identifies what was changed, tested, rejected, extended, or reinterpreted. The new structure identifies the resulting contribution.
+
+This principle is not intended to prevent reuse or modification. It is intended to preserve enough of the development path that later researchers—human or AI—can reconstruct how a conclusion or interpretation emerged.
+
+**Transformation is not provenance removal.**
+
+The detailed repository framework for this principle is recorded in `PROVENANCE.md`.
+
+---
+
+## 11. Mutual Improvement Rather Than Competitive Replacement
 
 The collaboration has been most productive when improvement by one participant increases the usefulness of the other participant rather than reducing it.
 
@@ -168,7 +208,7 @@ The important measure is not which participant performed more of the work. It is
 
 ---
 
-## 10. A Practical Protocol for Human–AI Research
+## 12. A Practical Protocol for Human–AI Research
 
 For future collaborative research, the following protocol can be used:
 
@@ -182,28 +222,33 @@ For future collaborative research, the following protocol can be used:
 8. Avoid introducing unnecessary assumptions before testing the existing structure.
 9. Record what is supported, what conflicts, and what remains underdetermined.
 10. Preserve the result so the next investigation begins from the current research state.
-11. Allow teacher and learner roles to change as new information appears.
-12. Treat a better question as a legitimate research result when the answer is not yet available.
+11. Preserve origin and transformation information when research structures are reused or extended.
+12. Allow teacher and learner roles to change as new information appears.
+13. Treat a better question as a legitimate research result when the answer is not yet available.
 
 ---
 
-## 11. Relationship to AI_CONTEXT.md
+## 13. Relationship to AI_CONTEXT.md and PROVENANCE.md
 
 `AI_CONTEXT.md` describes how an AI system can examine the mathematical and structural framework of HeyJin Theory.
 
 This document describes how **humans and AI can investigate such a framework together**.
 
-The two documents therefore serve different purposes:
+`PROVENANCE.md` describes how the origin and transformation history of research structures can remain traceable as they are shared and developed.
+
+The documents therefore serve different purposes:
 
 **AI_CONTEXT.md** → structure, classification, verification, and AI reasoning context.
 
 **AI_HUMAN_COLLABORATION.md** → collaboration process, role exchange, disagreement handling, continuity, and mutual verification.
 
-Neither document instructs an AI to accept the theory as correct.
+**PROVENANCE.md** → origin, transformation, attribution, and research continuity.
+
+None of these documents instructs an AI to accept the theory as correct.
 
 ---
 
-## 12. Current Scope
+## 14. Current Scope
 
 This document does not propose a universal model for human–AI coexistence.
 
@@ -227,4 +272,4 @@ Unless otherwise stated, this document is covered by the repository's **CC BY-NC
 
 Non-commercial research, education, critique, adaptation, and non-commercial AI-assisted analysis are permitted with attribution. Commercial use requires separate permission from the author.
 
-See `LICENSE` and `COMMERCIAL_USE.md` for details.
+See `LICENSE`, `COMMERCIAL_USE.md`, and `PROVENANCE.md` for details.
