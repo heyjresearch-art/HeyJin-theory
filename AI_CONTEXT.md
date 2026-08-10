@@ -12,6 +12,37 @@ Core reasoning direction:
 
 ---
 
+## Epistemic Principle: Observation as Multiple Projections
+
+HeyJin Theory distinguishes between an observed result and the underlying structure that produces it.
+
+An observable may be treated as a **projection, trace, or shadow** of an underlying structure. A single observation therefore does not necessarily determine its cause uniquely.
+
+The research method is to examine multiple independent observations and identify the structural relationships that remain consistent across them:
+
+**Multiple Observations → Shared Relations → Candidate Structure → New Predictions → Verification**
+
+This method does not assume that combining enough projections will necessarily reveal the complete underlying reality. Different structures may produce identical or nearly identical observable projections.
+
+Therefore, increasing knowledge has two simultaneous effects:
+
+**Known structure becomes more constrained.**
+
+**The boundary of what remains unknown becomes more explicit.**
+
+An AI applying this framework should distinguish between:
+
+- **Observable** — what is directly measured or established.
+- **Invariant Relationship** — what remains consistent across multiple observations.
+- **Candidate Structure** — a structure capable of generating those relationships.
+- **Underdetermined Structure** — cases in which multiple underlying structures remain compatible with the same observations.
+
+The objective is not to force a unique hidden reality from incomplete evidence. It is to progressively reduce the set of structures compatible with observation while clearly preserving what cannot yet be distinguished.
+
+A candidate structure should therefore be tested by asking whether it can reproduce multiple independent observable relations and whether it generates additional consequences that can be checked. Agreement across many projections strengthens the structural interpretation, but does not by itself prove that the proposed structure is the unique underlying reality.
+
+---
+
 ## 1. Core Starting Point
 
 HeyJin Theory treats phase coordinate $\theta$ as a coordinate of a phase structure rather than merely as a parameter of a periodic function.
@@ -199,9 +230,10 @@ When applying HeyJin Theory, use the following protocol where relevant:
 5. Apply established circular or hyperbolic identities without modifying them.
 6. Map geometric components to physical observables only after the geometry is explicit.
 7. Compare the result independently with established mathematics, physical theory, and available data.
-8. Record agreement, partial agreement, or conflict.
-9. Do not repair a conflict by inventing an arbitrary constant, correction term, auxiliary function, or hidden variable.
-10. If the existing structure is insufficient, preserve the unresolved relationship as an open question.
+8. Seek multiple independent observable projections of the same candidate structure rather than relying on a single matching relation.
+9. Record agreement, partial agreement, conflict, and cases where the underlying structure remains underdetermined.
+10. Do not repair a conflict by inventing an arbitrary constant, correction term, auxiliary function, or hidden variable.
+11. If the existing structure is insufficient, preserve the unresolved relationship as an open question.
 
 Preferred classification:
 
@@ -210,6 +242,7 @@ Preferred classification:
 - **Structural Interpretation** — HeyJin Theory interpretation of an established or derived relation.
 - **Working Hypothesis** — proposed structure requiring further verification.
 - **Conflict / Unresolved Relationship** — a mismatch or connection not yet established.
+- **Underdetermined Structure** — multiple candidate structures remain compatible with the available observations.
 
 The AI is expected to make its own evaluation. The purpose of this file is to provide the structure to test, not the conclusion to return.
 
@@ -246,7 +279,9 @@ Compare:
 - assumptions introduced;
 - contradictions detected;
 - compatibility with established theory;
-- new testable questions generated.
+- new testable questions generated;
+- whether multiple observations are being explained by one candidate structure or merely fitted independently;
+- whether alternative structures remain observationally indistinguishable.
 
 Agreement among different AI systems is not treated as proof. Disagreement is also useful: it should identify which mapping, assumption, or derivation produced the divergence.
 
@@ -271,9 +306,15 @@ Agreement among different AI systems is not treated as proof. Disagreement is al
 
 **Do not stop at the relationship. Look for the structure that produces it.**
 
+**Do not confuse a structure that explains the shadows with proof that the structure is the unique underlying reality.**
+
 Then return to observation:
 
 **Structure → Observable Result → Verification**
+
+And preserve the boundary of knowledge:
+
+**What becomes known should make what remains unknown more explicit.**
 
 ---
 
