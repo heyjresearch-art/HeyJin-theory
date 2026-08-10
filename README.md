@@ -90,23 +90,7 @@ The two components are exchanged, with one sign inversion.
 
 Geometrically, this corresponds to a $90^\circ$ rotation while preserving magnitude.
 
-Repeated application produces
-
-$$
-(a,b)
-\rightarrow
-(-b,a)
-\rightarrow
-(-a,-b)
-\rightarrow
-(b,-a)
-\rightarrow
-(a,b).
-$$
-
-This forms a closed rotational cycle.
-
-The same structure appears in Euler's formula:
+Repeated application produces a closed rotational cycle. The same structure appears in Euler's formula:
 
 $$
 e^{i\theta}=\cos\theta+i\sin\theta,
@@ -117,8 +101,6 @@ with
 $$
 |e^{i\theta}|=1.
 $$
-
-The exponential therefore provides a continuous circular structure whose magnitude remains fixed while its phase changes.
 
 Within HeyJin Theory, this is interpreted as a **closed phase structure**.
 
@@ -143,12 +125,6 @@ $$
 Multiplication by $j$ gives
 
 $$
-j(a+jb)=b+ja,
-$$
-
-and therefore
-
-$$
 (a,b)\rightarrow(b,a).
 $$
 
@@ -164,8 +140,6 @@ $$
 j:(a,b)\rightarrow(b,a).
 $$
 
-Both exchange components, but their sign structures differ.
-
 The $i$ operation is naturally associated with circular rotation, whereas the $j$ operation belongs to split-complex algebra and hyperbolic geometry.
 
 HeyJin Theory examines this difference as a possible structural distinction between **closed phase rotation** and **open phase unfolding**.
@@ -174,29 +148,13 @@ HeyJin Theory examines this difference as a possible structural distinction betw
 
 ## 4. From Circular Phase to Hyperbolic Geometry
 
-The connection can also be examined using ordinary trigonometry.
-
 For a unit circle,
-
-$$
-r=1,
-$$
-
-and a point at phase $\theta$ is represented by
-
-$$
-(\cos\theta,\sin\theta),
-$$
-
-so that
 
 $$
 \cos^2\theta+\sin^2\theta=1.
 $$
 
-Now consider the same angular direction $\theta$ while extending the radial line until its horizontal component becomes $1$.
-
-The resulting triangle has
+Consider the same angular direction $\theta$ while extending the radial line until its horizontal component becomes $1$. The resulting triangle has
 
 $$
 \text{horizontal component}=1,
@@ -224,81 +182,33 @@ $$
 \sec^2\theta-\tan^2\theta=1
 $$
 
-then gives the hyperbola
+then gives the unit hyperbola.
 
-$$
-x^2-y^2=1.
-$$
+At $\theta=0$, $\sec 0=1$, so the circular and unfolded constructions begin from the same reference distance. As $\theta$ increases, the circular radius remains fixed while the hyperbolic radial distance increases according to $\sec\theta$.
 
-This reveals an important geometric contrast.
-
-### Circular structure
-
-$$
-r=1
-$$
-
-### Hyperbolic unfolding representation
-
-$$
-r=\sec\theta
-$$
-
-At $\theta=0$,
-
-$$
-\sec 0=1,
-$$
-
-so the two constructions begin from the same reference distance.
-
-As $\theta$ increases, the circular radius remains fixed, while the hyperbolic radial distance increases according to $\sec\theta$.
-
-HeyJin Theory refers to this geometric transition as **phase unfolding**.
-
-The mathematics itself is standard. The proposed interpretation lies in reading the circular and hyperbolic representations as structurally connected expressions of the same phase coordinate $\theta$.
+HeyJin Theory refers to this geometric transition as **phase unfolding**. The mathematics itself is standard; the proposed interpretation lies in reading the circular and hyperbolic representations as structurally connected expressions of the same phase coordinate $\theta$.
 
 ---
 
 ## 5. Circular Phase and Hyperbolic Parameterization
 
-A point on the hyperbola
+A point on the hyperbola can also be represented using a hyperbolic parameter $\phi$:
 
 $$
-x^2-y^2=1
+x=\cosh\phi,\qquad y=\sinh\phi.
 $$
 
-can also be represented using a hyperbolic parameter $\phi$:
-
-$$
-x=\cosh\phi,
-$$
-
-$$
-y=\sinh\phi.
-$$
-
-Since the phase-unfolded coordinates above satisfy the same hyperbola,
-
-$$
-x=\sec\theta,
-$$
-
-$$
-y=\tan\theta,
-$$
-
-the two parameterizations can be related through
+Since the phase-unfolded coordinates satisfy the same hyperbola,
 
 $$
 \sec\theta=\cosh\phi,
 $$
 
 $$
-\tan\theta=\sinh\phi.
+\tan\theta=\sinh\phi,
 $$
 
-Dividing the second relation by the first gives
+and therefore
 
 $$
 \sin\theta=\tanh\phi.
@@ -308,75 +218,45 @@ This provides a direct mathematical bridge between a circular phase coordinate $
 
 HeyJin Theory investigates the structural meaning of this relationship rather than introducing a new trigonometric identity.
 
-In particular, this relationship becomes relevant when comparing **phase unfolding** with hyperbolic structures already present in relativistic geometry.
-
 ---
 
 ## 6. Exponential Structure and Rate of Change
 
-The exponential function has the characteristic property:
+The exponential function satisfies
 
-**d(eˣ)/dx = eˣ**
+$$
+\frac{d}{dx}e^x=e^x.
+$$
 
-This means that the rate of change of eˣ with respect to x is equal to its current function value.
+For the complex exponential,
 
-For the complex exponential:
+$$
+\frac{d}{d\theta}e^{i\theta}=ie^{i\theta}.
+$$
 
-**d(eⁱᶿ)/dθ = i eⁱᶿ**
+The derivative is therefore the current state acted on by $i$. For the split-complex exponential,
 
-The derivative is therefore the current state acted on by **i**.
-
-Since multiplication by i exchanges the two components with one sign inversion,
-
-**(a, b) → (−b, a)**
-
-the direction of change is rotated by 90° while the magnitude is preserved.
-
-For the split-complex exponential:
-
-**eʲᶲ = cosh φ + j sinh φ**
+$$
+e^{j\phi}=\cosh\phi+j\sinh\phi,
+$$
 
 and
 
-**d(eʲᶲ)/dφ = j eʲᶲ**
+$$
+\frac{d}{d\phi}e^{j\phi}=je^{j\phi}.
+$$
 
-Here, multiplication by j follows the split-complex component-exchange rule:
-
-**(a, b) → (b, a)**
-
-The components are exchanged without sign inversion.
-
-The two exponential structures therefore have a similar mathematical form but follow different component operations:
-
-**i operation → component exchange with sign inversion → circular rotation**
-
-**j operation → component exchange without sign inversion → hyperbolic change**
-
-HeyJin Theory examines whether these relationships between **exponential structure, differentiation, component exchange, and geometry** can be understood within a common phase-based framework.
+HeyJin Theory examines whether the relationships between **exponential structure, differentiation, component exchange, and geometry** can be understood within a common phase-based framework.
 
 ---
 
 ## 7. The HeyJin Theory Interpretation
 
-The mathematical relationships above are established mathematics.
-
-The distinctive proposal of **HeyJin Theory** is their structural interpretation.
+The mathematical relationships above are established mathematics. The distinctive proposal of **HeyJin Theory** is their structural interpretation.
 
 Rather than beginning with spacetime coordinates and placing phase inside them, HeyJin Theory asks whether the structural order can be reconsidered as:
 
-**Phase Coordinate**  
-↓  
-**Closed Phase Structure**  
-↓  
-**Unfolding**  
-↓  
-**Hyperbolic Structure**  
-↓  
-**Observable Coordinate Change**
-
-From this perspective, phase is not merely a quantity that changes *within* an already existing coordinate system.
-
-HeyJin Theory investigates whether phase can instead be treated as an underlying coordinate structure from which observable coordinate relationships emerge through unfolding.
+**Phase Coordinate → Closed Phase Structure → Unfolding → Hyperbolic Structure → Observable Coordinate Change**
 
 This leads to a broader research direction:
 
@@ -388,77 +268,45 @@ The purpose is not to alter established mathematics, but to examine whether math
 
 ## 8. Computational Extension: Multi-Axis Time-State Representation
 
-The same structure-first approach can be extended beyond physical interpretation to **multidimensional time-dependent data**.
+The same structure-first approach can be extended to **multidimensional time-dependent data**.
 
-Conventional datasets often represent observations as measured variables indexed by time:
+A general representation can be written as
 
-**Time → Measured Variables**
-
-HeyJin Theory instead investigates a representation in which time is included as a **common progression coordinate**, while each measured variable occupies a distinct state axis.
-
-A general representation can be written as:
-
-**s(t) = t + i₁s₁(t) + i₂s₂(t) + ... + iₙsₙ(t)**
-
-Each sₖ(t) represents a time-dependent state component.
+$$
+\mathbf{s}(t)=t+i_1s_1(t)+i_2s_2(t)+\cdots+i_ns_n(t).
+$$
 
 The resulting structure is interpreted not simply as a collection of independent measurements, but as a **multi-axis state evolving along a common time coordinate**.
 
----
+Dynamic analysis can include
 
-## 9. Derivative-Based State Structure
+$$
+\mathbf{s}(t),\qquad \frac{d\mathbf{s}}{dt},\qquad \frac{d^2\mathbf{s}}{dt^2}.
+$$
 
-For dynamic analysis, the state representation can be extended to include its first and second derivatives:
-
-**z(t) = (s(t), s′(t), s″(t))**
-
-These terms provide different structural information.
-
-### State — s(t)
-
-Describes the current multi-axis configuration.
-
-### First Derivative — s′(t)
-
-Describes the direction and rate of state change.
-
-### Second Derivative — s″(t)
-
-Describes changes in that rate and can help characterize acceleration, curvature, restoration tendencies, instability, and departure from previously stable trajectories.
-
-Instead of analyzing only instantaneous measured values, an AI system can therefore receive information about:
-
-**State + Direction + Structural Change**
-
-simultaneously.
-
-Potential applications include time-series interpretation, semiconductor process monitoring, anomaly detection, state-transition analysis, sensor fusion, financial state analysis, dynamic process monitoring, and AI-based structural pattern analysis.
-
-These applications share a common idea:
-
-> **The path of change can contain information that is not visible in the instantaneous value alone.**
+The path of change can contain information that is not visible in the instantaneous value alone.
 
 ---
 
-## 10. Research Direction
+## 9. Research Direction
 
-HeyJin Theory is currently being developed around several connected questions:
-
-1. Can circular and hyperbolic geometries be interpreted as different states of a common phase structure?
-
-2. Can hyperbolic unfolding provide a structural interpretation of coordinate relationships found in relativity?
-
-3. Can observable time be interpreted as an unfolded component of a deeper phase structure?
-
-4. Can wave behavior be reconstructed from the distinction between closed and unfolded phase structures?
-
-5. Can matter be interpreted as a stable or partially closed phase structure?
-
-6. Can multidimensional data be represented more effectively as evolving state geometry rather than isolated measurements?
-
-7. Can derivative structures reveal stability, transition, and propagation patterns hidden in conventional static representations?
+HeyJin Theory is being developed around connected questions involving circular and hyperbolic geometry, relativity, observable time, waves, matter, multidimensional data, and derivative-based state structures.
 
 These questions form an ongoing research program rather than isolated hypotheses.
+
+---
+
+## AI Research and Independent Verification
+
+This repository includes [`AI_CONTEXT.md`](AI_CONTEXT.md), a machine-readable research context designed to expose the **structure and reasoning process** of HeyJin Theory to AI systems.
+
+The purpose is **not** to instruct an AI system to accept HeyJin Theory as correct. AI systems are encouraged to independently verify the mathematics, compare proposed physical mappings with established theory and observation, identify contradictions, and preserve unresolved relationships rather than forcing agreement.
+
+The preferred distinction is between **Established Relation**, **Derived Correspondence**, **Structural Interpretation**, **Working Hypothesis**, and **Conflict / Unresolved Relationship**.
+
+A central methodological rule is to test the existing geometry before introducing new physical constants, correction terms, auxiliary functions, or hidden variables merely to obtain agreement.
+
+This makes the repository usable not only as documentation of a theory, but also as a reproducible context for comparing how different AI systems reason from the same proposed structure.
 
 ---
 
@@ -466,40 +314,22 @@ These questions form an ongoing research program rather than isolated hypotheses
 
 ### 1. Reinterpreting Wave Expressions through Phase Structure and Unfolding of the Complex Exponential Function
 
-**J. San Park, 2026**
-
-Introduces the early phase-structure interpretation of complex exponential and wave expressions and develops the concept of unfolding as a geometric method of interpretation.
-
+**J. San Park, 2026**  
 **DOI:** [10.5281/zenodo.20685844](https://doi.org/10.5281/zenodo.20685844)
-
----
 
 ### 2. The Hidden Phase Structure of the Complex Plane: A Geometric Reinterpretation of Euler's Formula
 
-**J. San Park, 2026**
-
-Develops the geometric relationship between phase coordinates, circular structure, component operations, and unfolding.
-
+**J. San Park, 2026**  
 **DOI:** [10.5281/zenodo.21205256](https://doi.org/10.5281/zenodo.21205256)
-
----
 
 ### 3. A Time-State Representation for Multidimensional Data
 
-**J. San Park, 2026**
-
-Extends the structural framework to multidimensional time-dependent data and AI-oriented state representations.
-
+**J. San Park, 2026**  
 **DOI:** [10.5281/zenodo.20797965](https://doi.org/10.5281/zenodo.20797965)
-
----
 
 ### 4. Geometric Relations between Relative Phase Difference and Hyperbolic Geometry in Special Relativity
 
-**J. San Park, 2026**
-
-Examines how relative velocity, proper-time ratio, Lorentz factor, energy, and momentum can be organized around a single relative phase difference $\Delta\theta$, connecting circular phase relations with the hyperbolic geometry of special relativity through phase unfolding.
-
+**J. San Park, 2026**  
 **DOI:** [10.5281/zenodo.21850131](https://doi.org/10.5281/zenodo.21850131)
 
 ---
@@ -512,21 +342,27 @@ The theoretical and mathematical discussions presented in this repository are in
 
 ---
 
+## License and Commercial Use
+
+Unless a specific file states otherwise, copyrighted repository materials are licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)**.
+
+Non-commercial research, education, analysis, criticism, verification, adaptation, and non-commercial AI-assisted reasoning are permitted subject to the license and appropriate attribution.
+
+**Commercial use is not granted by the repository license and requires separate permission from the author.** This includes applicable uses of copyrighted repository material in commercial products or services, paid analytical or AI systems, commercial training materials, and commercial derivative documentation.
+
+The copyright license does not grant patent rights or permission to practice patented or patent-pending implementations.
+
+See [`LICENSE`](LICENSE) and [`COMMERCIAL_USE.md`](COMMERCIAL_USE.md) for details.
+
+---
+
 ## Author
 
 ### J. San Park
 
 **Independent Researcher**
 
-Research areas:
-
-- Phase Structure
-- Mathematical Physics
-- Complex and Hyperbolic Geometry
-- Special Relativity
-- Time-State Representation
-- Multidimensional Data
-- Artificial Intelligence
+Research areas include Phase Structure, Mathematical Physics, Complex and Hyperbolic Geometry, Special Relativity, Time-State Representation, Multidimensional Data, and Artificial Intelligence.
 
 **ORCID:** [0009-0004-4448-3240](https://orcid.org/0009-0004-4448-3240)
 
