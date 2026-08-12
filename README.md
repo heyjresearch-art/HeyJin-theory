@@ -353,6 +353,11 @@ This makes the repository usable not only as documentation of a theory, but also
 **J. San Park, 2026**  
 **DOI:** [10.5281/zenodo.21850131](https://doi.org/10.5281/zenodo.21850131)
 
+### 5. A Relative-Phase Unfolding Representation of General Relativity: The Schwarzschild Case
+
+**J. San Park, 2026**  
+**DOI:** [10.5281/zenodo.21903644](https://doi.org/10.5281/zenodo.21903644)
+
 ---
 
 ## Intellectual Property
@@ -385,7 +390,7 @@ See [`LICENSE`](LICENSE), [`COMMERCIAL_USE.md`](COMMERCIAL_USE.md), and [`PROVEN
 
 **Independent Researcher**
 
-Research areas include Phase Structure, Mathematical Physics, Complex and Hyperbolic Geometry, Special Relativity, Time-State Representation, Multidimensional Data, and Artificial Intelligence.
+Research areas include Phase Structure, Mathematical Physics, Complex and Hyperbolic Geometry, Special Relativity, General Relativity, Schwarzschild Geometry, Time-State Representation, Multidimensional Data, and Artificial Intelligence.
 
 **ORCID:** [0009-0004-4448-3240](https://orcid.org/0009-0004-4448-3240)
 
@@ -414,4 +419,4 @@ For specific mathematical arguments or computational applications, please cite t
 
 ## Keywords
 
-`HeyJin Theory` · `Phase Unfolding Theory` · `Phase Structure` · `Phase Coordinate` · `Relative Phase Difference` · `Special Relativity` · `Complex Plane` · `Split-Complex Numbers` · `Hyperbolic Geometry` · `Euler's Formula` · `Phase Unfolding` · `Lorentz Factor` · `Time Structure` · `Spacetime` · `Multi-Axis Time-State Representation` · `Artificial Intelligence`
+`HeyJin Theory` · `Phase Unfolding Theory` · `Phase Structure` · `Phase Coordinate` · `Relative Phase Difference` · `Special Relativity` · `General Relativity` · `Schwarzschild Geometry` · `Complex Plane` · `Split-Complex Numbers` · `Hyperbolic Geometry` · `Euler's Formula` · `Phase Unfolding` · `Lorentz Factor` · `Time Structure` · `Spacetime` · `Multi-Axis Time-State Representation` · `Artificial Intelligence`
