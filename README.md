@@ -50,7 +50,7 @@ Extends the structure-first approach to multidimensional time-dependent state re
 ### 4. Geometric Relations between Relative Phase Difference and Hyperbolic Geometry in Special Relativity
 
 **J. San Park, 2026**  
-**DOI:** [10.5281/zenodo.21850131](https://doi.org/10.5281/zenodo.21850131)
+**DOI:** [10.5281/zenodo.21850130](https://doi.org/10.5281/zenodo.21850130)
 
 Examines whether special-relativistic relations can be organized through a common relative phase difference and its hyperbolic unfolding.
 
@@ -61,9 +61,31 @@ Examines whether special-relativistic relations can be organized through a commo
 
 Extends the relative-phase representation to temporal, radial spatial, and free-fall relations in Schwarzschild geometry.
 
-### 6. Quantum Phase Structure — In Development
+### 6. Three-Phase Geometry and Phase Unfolding: Connections to Relativity and Quantum Mechanics
 
-The next stage returns to the complex phase already fundamental to quantum mechanics and asks what geometric structure underlies that phase when viewed through the phase-unfolding framework.
+**J. San Park, 2026**  
+**DOI:** [10.5281/zenodo.21962226](https://doi.org/10.5281/zenodo.21962226)
+
+Extends the framework to a three-phase geometry in which an open progression coexists with a retained closed phase structure. The paper examines open–closed connectivity, 4π structural recovery, time–space phase correspondence, and structural connections to relativity and quantum-mechanical relations.
+
+---
+
+## Current Structural Research State
+
+The latest stage of the framework distinguishes between an **open progression** generated through phase unfolding and a **retained closed phase structure** that remains at each progression position.
+
+In the three-phase representation, the component direction shared by two phase structures forms the open progression, while a third phase remains as a closed circular cross-section. The continuous connection of these cross-sections forms a connected shell-like structure.
+
+The current working geometry therefore emphasizes two simultaneous features:
+
+**Open Phase Progression + Retained Closed Phase Cross-Section**
+
+and, when the full connected phase path is followed,
+
+**2π → Reversed Structural Orientation**  
+**4π → Full Structural Recovery**
+
+These relations are treated as a current research state rather than a final conclusion. The framework is intended to evolve as mathematical checks, physical comparisons, and new structural questions modify or refine the interpretation.
 
 ---
 
@@ -279,8 +301,9 @@ Current research directions include:
 
 - **Wave structure:** how complex phase and unfolded wave expressions are related.
 - **Relativity:** how relative phase difference $\Delta\theta$ can organize velocity, proper time, Lorentz factors, momentum, and Schwarzschild relations.
-- **Quantum phase:** what geometric structure may underlie the complex phase and relative phase already used in quantum mechanics.
-- **Matter and closed phase:** whether stable closed phase structures can be related consistently to spin, mass, inertia, and later gravitational relations.
+- **Three-phase geometry:** how open progression and retained closed phase structure coexist within one connected geometry.
+- **Quantum phase:** whether retained closed structure, relative relations, and 2π–4π structural progression provide useful geometric correspondences with quantum phenomena.
+- **Matter and closed phase:** whether stable open–closed connected phase structures can be related consistently to matter, spin, mass, inertia, and later gravitational relations.
 - **Time and spacetime:** whether observable temporal and spatial relations can be interpreted as unfolded expressions of phase structure.
 
 These are treated as connected research questions whose mathematical consistency and correspondence with established physical relations must be examined step by step.
@@ -320,6 +343,8 @@ This repository separates the theoretical framework, AI reasoning context, human
 
 The repository encourages independent verification of the mathematics and proposed physical mappings. The aim is not to instruct an AI system or reader to accept HeyJin Theory, but to make the framework sufficiently explicit that its claims, conflicts, unresolved questions, and transformations can be traced and tested.
 
+The papers in the Phase Series should be read as mathematical and physical-language interpretations of an evolving structural research framework. They record the current form of the reasoning so that others can independently reproduce, criticize, refine, or reject the proposed connections. New results may therefore revise earlier interpretations without erasing the development path that produced them.
+
 Two principles connect the research documents:
 
 > **To know something is also to make clearer what remains unknown.**
@@ -354,7 +379,7 @@ See [`LICENSE`](LICENSE), [`COMMERCIAL_USE.md`](COMMERCIAL_USE.md), and [`PROVEN
 
 **Independent Researcher**
 
-Research areas include Mathematical Physics, Phase Structure, Phase Coordinate Geometry, Complex and Hyperbolic Geometry, Special Relativity, General Relativity, Schwarzschild Geometry, Quantum Phase, Time-State Representation, Multidimensional Data, and Artificial Intelligence.
+Research areas include Mathematical Physics, Phase Structure, Phase Coordinate Geometry, Three-Phase Geometry, Complex and Hyperbolic Geometry, Special Relativity, General Relativity, Schwarzschild Geometry, Quantum Phase, Time-State Representation, Multidimensional Data, and Artificial Intelligence.
 
 **ORCID:** [0009-0004-4448-3240](https://orcid.org/0009-0004-4448-3240)
 
@@ -383,4 +408,4 @@ For specific mathematical arguments or physical applications, please cite the co
 
 ## Keywords
 
-`HeyJin Theory` · `Phase Unfolding Theory` · `Phase Structure` · `Phase Coordinate` · `Circular Phase` · `Closed Phase Structure` · `Open Phase` · `Phase Unfolding` · `Relative Phase Difference` · `Quantum Phase` · `Complex Phase` · `Special Relativity` · `General Relativity` · `Schwarzschild Geometry` · `Complex Plane` · `Split-Complex Numbers` · `Hyperbolic Geometry` · `Euler's Formula` · `Lorentz Factor` · `Time Structure` · `Spacetime` · `Multi-Axis Time-State Representation` · `Artificial Intelligence`
+`HeyJin Theory` · `Phase Unfolding Theory` · `Phase Structure` · `Phase Coordinate` · `Three-Phase Geometry` · `Circular Phase` · `Closed Phase Structure` · `Open Phase` · `Open–Closed Connectivity` · `Phase Unfolding` · `Relative Phase Difference` · `4π Structural Recovery` · `Quantum Phase` · `Quantum Mechanics` · `Complex Phase` · `Special Relativity` · `General Relativity` · `Schwarzschild Geometry` · `Complex Plane` · `Split-Complex Numbers` · `Hyperbolic Geometry` · `Euler's Formula` · `Lorentz Factor` · `Time Structure` · `Spacetime` · `Multi-Axis Time-State Representation` · `Artificial Intelligence`
