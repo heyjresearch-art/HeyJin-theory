@@ -6,17 +6,21 @@ authors:
   - family-names: "Park"
     given-names: "J. San"
     orcid: "https://orcid.org/0009-0004-4448-3240"
-date-released: 2026-08-10
-url: "https://github.com/heyjresearch-art/Heyjin-theory"
+date-released: 2026-08-16
+url: "https://github.com/heyjresearch-art/HeyJin-theory"
 license: "CC-BY-NC-4.0"
 keywords:
   - "HeyJin Theory"
   - "Phase Unfolding Theory"
   - "Phase Structure"
   - "Phase Coordinate"
+  - "Three-Phase Geometry"
   - "Relative Phase Difference"
   - "Hyperbolic Geometry"
   - "Special Relativity"
+  - "General Relativity"
+  - "Quantum Mechanics"
+  - "Quantum Phase"
   - "Time-State Representation"
   - "Artificial Intelligence"
 references:
@@ -26,7 +30,7 @@ references:
       - family-names: "Park"
         given-names: "J. San"
     year: 2026
-    doi: "10.5281/zenodo.20685845"
+    doi: "10.5281/zenodo.20685844"
   - type: article
     title: "The Hidden Phase Structure of the Complex Plane: A Geometric Reinterpretation of Euler's Formula"
     authors:
@@ -35,7 +39,7 @@ references:
     year: 2026
     doi: "10.5281/zenodo.21205256"
   - type: article
-    title: "Multidimensional Data Interpretation Using a Multi-Axis Time-State Representation"
+    title: "A Time-State Representation for Multidimensional Data"
     authors:
       - family-names: "Park"
         given-names: "J. San"
@@ -47,4 +51,18 @@ references:
       - family-names: "Park"
         given-names: "J. San"
     year: 2026
-    doi: "10.5281/zenodo.21850131"
+    doi: "10.5281/zenodo.21850130"
+  - type: article
+    title: "A Relative-Phase Unfolding Representation of General Relativity: The Schwarzschild Case"
+    authors:
+      - family-names: "Park"
+        given-names: "J. San"
+    year: 2026
+    doi: "10.5281/zenodo.21903644"
+  - type: article
+    title: "Three-Phase Geometry and Phase Unfolding: Connections to Relativity and Quantum Mechanics"
+    authors:
+      - family-names: "Park"
+        given-names: "J. San"
+    year: 2026
+    doi: "10.5281/zenodo.21962226"
