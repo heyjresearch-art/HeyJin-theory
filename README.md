@@ -77,6 +77,17 @@ Examines whether discrete charge ratios can emerge from directional configuratio
 
 ---
 
+## Interdisciplinary Extension — Persistence, Life, and Future Viability
+
+### What Persists Through Time? From Phase Structure to Life, Evolution, and Human Responsibility
+
+**J. San Park, 2026**  
+**DOI:** [10.5281/zenodo.22281089](https://doi.org/10.5281/zenodo.22281089)
+
+Extends the phase-structure framework from physical persistence to living organization, heredity, evolution, diversity, viable future pathways, and human intervention. The study follows the sequence **Structure → Organization → Information → Diversity → Possibility → Viable Pathways** and proposes a minimum principle for decisions whose long-term consequences exceed reliable prediction: **Preserve the capacity for future viability.**
+
+---
+
 ## Current Structural Research State
 
 The latest stage of the framework distinguishes between an **open progression** generated through phase unfolding and a **retained closed phase structure** that remains at each progression position.
@@ -421,4 +432,4 @@ For specific mathematical arguments or physical applications, please cite the co
 
 ## Keywords
 
-`HeyJin Theory` · `Phase Unfolding Theory` · `Phase Structure` · `Phase Coordinate` · `Three-Phase Geometry` · `Circular Phase` · `Closed Phase Structure` · `Open Phase` · `Open–Closed Connectivity` · `Phase Unfolding` · `Relative Phase Difference` · `4π Structural Recovery` · `Quantum Phase` · `Quantum Mechanics` · `Complex Phase` · `Special Relativity` · `General Relativity` · `Schwarzschild Geometry` · `Complex Plane` · `Split-Complex Numbers` · `Hyperbolic Geometry` · `Euler's Formula` · `Lorentz Factor` · `Time Structure` · `Spacetime` · `Multi-Axis Time-State Representation` · `Artificial Intelligence`
+`HeyJin Theory` · `Phase Unfolding Theory` · `Phase Structure` · `Phase Coordinate` · `Three-Phase Geometry` · `Circular Phase` · `Closed Phase Structure` · `Open Phase` · `Open–Closed Connectivity` · `Phase Unfolding` · `Relative Phase Difference` · `4π Structural Recovery` · `Quantum Phase` · `Quantum Mechanics` · `Complex Phase` · `Special Relativity` · `General Relativity` · `Schwarzschild Geometry` · `Complex Plane` · `Split-Complex Numbers` · `Hyperbolic Geometry` · `Euler's Formula` · `Lorentz Factor` · `Time Structure` · `Spacetime` · `Multi-Axis Time-State Representation` · `Artificial Intelligence` · `Persistence` · `Living Systems` · `Evolution` · `Viable Pathways` · `Future Viability`
