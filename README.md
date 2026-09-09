@@ -88,6 +88,25 @@ Extends the phase-structure framework from physical persistence to living organi
 
 ---
 
+## Applied Research — Data Security and Governance
+
+### Path-Governed Data Security: A Framework for Data Path Creation Control
+
+**J. San Park, 2026**  
+**DOI:** [10.5281/zenodo.22673836](https://doi.org/10.5281/zenodo.22673836)
+
+Extends the structure-first research approach to information security by distinguishing **data access authority** from **data path creation authority**. The framework treats protected-data movement as a separate decision layer: approved operational paths may continue to be used, while creation of a new path for protected data requires independent verification.
+
+The core control relation is:
+
+**Protected Data + New Path Creation → Independent Verification**
+
+Rather than replacing existing security mechanisms, the framework organizes data classification, provenance and lineage, information-flow control, DLP, and access-control / Zero Trust mechanisms around the point at which protected data attempts to create a new movement path. It also considers sensitivity inheritance when data is combined and separate verification when sensitivity is reduced.
+
+This applied study is maintained separately from the Phase Series: it uses the broader structure-first research method, but it is not presented as a physical consequence of Phase Unfolding Theory.
+
+---
+
 ## Current Structural Research State
 
 The latest stage of the framework distinguishes between an **open progression** generated through phase unfolding and a **retained closed phase structure** that remains at each progression position.
