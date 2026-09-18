@@ -33,12 +33,12 @@ The research is developed as a connected series in which each paper examines one
 
 Introduces the phase-unfolding viewpoint through complex exponential and wave expressions.
 
-### 2. The Hidden Phase Structure of the Complex Plane: A Geometric Reinterpretation of Euler's Formula
+### 2. The Hidden Phase Structure of the Complex Plane: A Geometric Reinterpretation of Euler's Formula through Circular–Hyperbolic Phase Unfolding
 
 **J. San Park, 2026**  
 **DOI:** [10.5281/zenodo.21205256](https://doi.org/10.5281/zenodo.21205256)
 
-Examines the geometric structure of circular phase and Euler's formula.
+Examines how a closed circular phase structure can be continuously represented as an open hyperbolic structure through phase unfolding. The study distinguishes the circular phase coordinate $\theta$ from the corresponding hyperbolic coordinate $\phi$, develops the relation $(\cos\theta,\sin\theta)\rightarrow(\sec\theta,\tan\theta)=(\cosh\phi,\sinh\phi)$, and compares the resulting geometry with the normalized spacetime representation of special relativity.
 
 ### 3. A Time-State Representation for Multidimensional Data
 
@@ -108,6 +108,14 @@ This applied study is maintained separately from the Phase Series: it uses the b
 ---
 
 ## Current Structural Research State
+
+The current framework also distinguishes two structural levels at which the same phase concept is examined. The first is the unfolding of the background phase structure itself from a closed circular representation into an open hyperbolic structure. The second is the development of phase structures within a background in which a common progression, direction, and sequential order are already established.
+
+When the unfolded geometry is connected with relativistic motion, $t$ is treated as a **common progression** through which direction, sequential order, and rates of physical change can be defined. A displayed $t$ direction represents one directional case of the complete symmetric structure rather than an intrinsically preferred direction.
+
+This gives the current structural sequence
+
+**Closed Background Phase Structure → Open Hyperbolic Background → Common Progression $t$ → Phase Structures Developing Within the Background**
 
 The latest stage of the framework distinguishes between an **open progression** generated through phase unfolding and a **retained closed phase structure** that remains at each progression position.
 
@@ -274,6 +282,8 @@ these points lie on the unit hyperbola.
 
 HeyJin Theory calls this geometric relation **phase unfolding**. The proposed interpretation does not modify the trigonometric identity; it reads the circular phase coordinate and hyperbolic coordinates as structurally connected representations.
 
+The circular phase coordinate itself remains continuous across successive phase intervals. At boundaries where $\cos\theta=0$, the unfolded coordinates $\sec\theta$ and $\tan\theta$ become unbounded. The boundary therefore belongs to a particular hyperbolic representation rather than indicating a discontinuity of the phase coordinate itself; continuation beyond the boundary appears through another open arm.
+
 ---
 
 ### 5. Circular Phase and Hyperbolic Parameterization
@@ -301,6 +311,32 @@ $$
 $$
 
 Thus the circular phase coordinate $\theta$ and hyperbolic parameter $\phi$ describe the same hyperbolic state through different parameterizations.
+
+Their coordinate relation may be written as
+
+$
+\phi=\operatorname{artanh}(\sin\theta),
+$
+
+which gives
+
+$
+\frac{d\phi}{d\theta}=\sec\theta.
+$
+
+In the geometric triangle construction, the corresponding radial length is also
+
+$
+r=\sec\theta.
+$
+
+Therefore,
+
+$
+r=\sec\theta=\frac{d\phi}{d\theta}.
+$
+
+On the circular structure, $\theta$ progresses along a fixed radius $r=1$. In the unfolded hyperbolic structure, the corresponding radial scale changes continuously with $\theta$. The same quantity $\sec\theta$ therefore represents both the radial unfolding scale and the coordinate transformation rate from $\theta$ to $\phi$.
 
 ---
 
