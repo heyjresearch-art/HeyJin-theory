@@ -217,6 +217,60 @@ This is a structural hypothesis requiring independent mathematical and physical 
 
 ---
 
+## 6A. Directional Charge-Ratio Extension
+
+The current charge-structure study follows the directional information that remains after Phase Unfolding. A common progression establishes a directional reference, while three phase components retain relative orientations within that progression.
+
+The normalized directional configuration is written as
+
+$
+D=t_r+\theta_3+\theta_1+\theta_2,
+$
+
+with
+
+$
+t_r=\pm1,\qquad \theta_3=\pm1,\qquad \theta_1=\pm\frac12,\qquad \theta_2=\pm\frac12.
+$
+
+Using the maximum absolute directional sum $|D|_{\max}=3$,
+
+$
+R=\frac{D}{3},
+$
+
+which gives
+
+$
+R\in\left\{-1,-\frac23,-\frac13,0,+\frac13,+\frac23,+1\right\}.
+$
+
+These values are compared numerically with integer and fractional electric-charge ratios observed in elementary particles. The charge values are not assigned to the phase components in advance.
+
+A key distinction in the revised framework is:
+
+**positional closure ≠ directional neutrality.**
+
+Integer configurations $R=\pm1$ and the cancellation state $R=0$ can establish complete directional closure or cancellation at the normalized level, whereas fractional states $R=\pm1/3$ and $R=\pm2/3$ do not independently establish the same positional closure. Fractional states can, however, participate in composite closure, including
+
+$
+\frac23+\frac23-\frac13=1,
+$
+
+and
+
+$
+\frac23-\frac13-\frac13=0.
+$
+
+A shared central closure may stabilize the position of a composite while directional organization remains in outer closed regions. The current research therefore follows the sequence
+
+**Phase Unfolding → Directional Configuration → Discrete Charge Ratios → Positional Closure → Composite Formation → Remaining Directional Organization**
+
+Geometric multiplicity is not identified with physical formation probability. Exact interaction strength, length scale, mass, binding energy, and force laws remain separate physical questions.
+
+---
+
 ## 7. Constants and Open Research Question
 
 For current calculations, treat $c$ and $\hbar$ as established physical constants. Do not attempt to derive them unless the problem specifically concerns their origin.
@@ -319,6 +373,9 @@ Agreement among different AI systems is not treated as proof. Disagreement is al
 2. *The Hidden Phase Structure of the Complex Plane: A Geometric Reinterpretation of Euler's Formula* — Zenodo, 2026. DOI: `10.5281/zenodo.21205256`
 3. *Multidimensional Data Interpretation Using a Multi-Axis Time-State Representation* — Zenodo, 2026. DOI: `10.5281/zenodo.20797965`
 4. *Geometric Relations between Relative Phase Difference and Hyperbolic Geometry in Special Relativity* — Zenodo, 2026. DOI: `10.5281/zenodo.21850131`
+5. *A Relative-Phase Unfolding Representation of General Relativity: The Schwarzschild Case* — Zenodo, 2026. DOI: `10.5281/zenodo.21903644`
+6. *Three-Phase Geometry and Phase Unfolding: Connections to Relativity and Quantum Mechanics* — Zenodo, 2026. DOI: `10.5281/zenodo.21962226`
+7. *Phase Directions after Unfolding and the Emergence of Discrete Charge Ratios* — Zenodo, 2026. DOI: `10.5281/zenodo.22127760`
 
 For the development history connecting these records with repository structures, see `PROVENANCE.md`.
 
