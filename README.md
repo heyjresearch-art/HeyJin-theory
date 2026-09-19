@@ -68,12 +68,12 @@ Extends the relative-phase representation to temporal, radial spatial, and free-
 
 Extends the framework to a three-phase geometry in which an open progression coexists with a retained closed phase structure. The paper examines open–closed connectivity, 4π structural recovery, time–space phase correspondence, and structural connections to relativity and quantum-mechanical relations.
 
-### 7. Phase Direction after Unfolding and the Emergence of Discrete Charge Ratios
+### 7. Phase Directions after Unfolding and the Emergence of Discrete Charge Ratios
 
 **J. San Park, 2026**  
 **DOI:** [10.5281/zenodo.22127760](https://doi.org/10.5281/zenodo.22127760)
 
-Examines whether discrete charge ratios can emerge from directional configurations after Phase Unfolding. The study develops normalized directional ratios from a three-phase configuration, compares them with elementary-particle charge ratios, and examines re-closure, composite formation, and branch-level asymmetry.
+Examines whether discrete electric-charge ratios can emerge from directional configurations after Phase Unfolding without assigning particle charge values in advance. The normalized directional ratios are compared with integer and fractional elementary-particle charge ratios. The study then distinguishes positional closure from directional neutrality and examines fractional-state composite formation, cross-branch redistribution, matter survival, self-neutralization, and the directional organization that may remain after composite closure.
 
 ---
 
@@ -132,9 +132,9 @@ and, when the full connected phase path is followed,
 
 The latest charge-structure study extends this framework by following the directional information that remains after unfolding. Three phase components generate a discrete directional configuration space, and re-closure is examined as the condition under which those directional relations can persist as stable structures. This adds the research sequence
 
-**Phase Unfolding → Directional Configuration → Re-closure → Discrete Charge Ratios**
+**Phase Unfolding → Directional Configuration → Discrete Charge Ratios → Positional Closure → Composite Formation → Remaining Directional Organization**
 
-and provides a geometric basis for comparing the resulting normalized ratios with observed elementary-particle charge ratios, while keeping geometric multiplicity distinct from physical formation probability.
+with normalized values **−1, −2/3, −1/3, 0, +1/3, +2/3, +1**. The current analysis distinguishes positional stability from complete directional cancellation: a shared closure may stabilize a composite while outer closed regions retain directional organization. Geometric multiplicity remains distinct from physical formation probability.
 
 These relations are treated as a current research state rather than a final conclusion. The framework is intended to evolve as mathematical checks, physical comparisons, and new structural questions modify or refine the interpretation.
 
