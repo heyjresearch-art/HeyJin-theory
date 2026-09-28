@@ -12,7 +12,7 @@ Conventional semiconductor memory commonly represents information through stored
 
 The architecture places a transition region between the source and channel. The physical state of this region controls the carrier-injection barrier or injection condition, and the resulting channel current becomes the observable memory state.
 
-`Transition State → Carrier Injection → Channel Current → Memory State`
+`Retained Transition State → Transition Condition → Carrier Transition → Readout`
 
 The transition state may be implemented through physical mechanisms including polarization, magnetization, trap occupation, interface states, local charge distribution, or energy-barrier configuration. The concept is therefore not restricted to a single storage material or physical mechanism.
 
@@ -34,7 +34,7 @@ The architecture also separates state control from read/verification. Programmin
 
 A particularly important feature of the architecture is that the stored state directly determines current flow.
 
-`Stored State → Carrier Path → Current Response → Computation`
+`Stored State → Carrier-Transition Condition → Output Response`
 
 The stored physical state therefore does not need to exist only as an abstract value that is first retrieved and then separately supplied to a logic unit. Its electrical consequence already appears as a current response in the device.
 
@@ -72,6 +72,22 @@ The broader architectural idea can be summarized as:
 The term **Path-Controlled Semiconductor Memory** is used here as the research and technology name for this broader architectural direction. The filed patent uses the formal title **Control Method of Transition-Controlled Semiconductor Memory Device**.
 
 The goal of this research page is to make the underlying concept, architecture, and future development path easier to understand than a patent document alone.
+
+## Research Publication
+
+The transition-state memory concept has now been developed into a research paper:
+
+**J. San Park, “Beyond Stored Charge: A Transition-State Approach to Semiconductor Memory,” 2026.**
+
+DOI: **10.5281/zenodo.23017702**
+
+The paper formalizes the memory structure around the following relationship:
+
+`Retained Transition State → Transition Condition → Carrier Transition → Readout`
+
+In this formulation, the stored information is the **retained transition state**. The state establishes the condition under which subsequent carrier transition occurs, while the resulting electrical response provides the readout. The carrier trajectory itself is not treated as the stored information.
+
+The paper further examines Write, Read, and Verify operation, multiple transition states and Readout Windows, possible physical implementations of the Transition Layer, and extensions toward in-memory and neuromorphic computing. These extensions are presented as architectural possibilities whose practical realization depends on experimental validation of state formation, retention, readout separation, and repeatability.
 
 ## Patent Status
 
