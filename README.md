@@ -75,13 +75,6 @@ Extends the framework to a three-phase geometry in which an open progression coe
 
 Examines whether discrete electric-charge ratios can emerge from directional configurations after Phase Unfolding without assigning particle charge values in advance. The normalized directional ratios are compared with integer and fractional elementary-particle charge ratios. The study then distinguishes positional closure from directional neutrality and examines fractional-state composite formation, cross-branch redistribution, matter survival, self-neutralization, and the directional organization that may remain after composite closure.
 
-### 8. Data as Waves: A Relational Approach to Semiconductor Process Analysis Using Relative Phase
-
-**J. San Park, 2026**  
-**DOI:** [10.5281/zenodo.23191069](https://doi.org/10.5281/zenodo.23191069)
-
-Introduces a relational representation of semiconductor process data using relative phase and relational progression. The study identifies recurrent temporal structure directly from sensor data and examines whether sensor relationships and their progression provide complementary information for process representation and wafer-level outcome prediction. Public reproducibility code is provided with the Zenodo record.
-
 ---
 
 ## Interdisciplinary Extension — Persistence, Life, and Future Viability
@@ -95,7 +88,27 @@ Extends the phase-structure framework from physical persistence to living organi
 
 ---
 
-## Applied Research — Data Security and Governance
+## Applied Research — Data Analysis, Process Representation, and Governance
+
+### Data as Waves: A Relational Approach to Semiconductor Process Analysis Using Relative Phase
+
+**Paper & Reproducibility Package**  
+**J. San Park, 2026**  
+**Zenodo Concept DOI:** [10.5281/zenodo.23191068](https://doi.org/10.5281/zenodo.23191068)
+
+This research examines semiconductor process data as evolving relationships rather than only as collections of individual sensor values. Using BOSCH plasma-etching data, recurrent temporal structure is identified directly from sensor data, relative phase is used to construct a relational state, and cycle-wise relational progression is examined as complementary process information.
+
+The research structure is:
+
+**Sensor Data → Recurrent Structure → Relational State → Relational Progression → Process Representation**
+
+The Zenodo record is maintained as a single research package containing:
+
+- **Paper** — definitions, methods, results, discussion, and the reported semiconductor-process analysis.
+- **Public Reproducibility Code** — code for reproducing the principal analyses and reported results within the public disclosure scope.
+- **Zenodo Record** — the versioned archival record linking the paper and reproducibility package under a common Concept DOI.
+
+The Concept DOI above represents the research package across Zenodo versions and should be preferred when referring to the package as a whole.
 
 ### Path-Governed Data Security: A Framework for Data Path Creation Control
 
