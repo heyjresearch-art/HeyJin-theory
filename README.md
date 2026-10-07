@@ -75,6 +75,13 @@ Extends the framework to a three-phase geometry in which an open progression coe
 
 Examines whether discrete electric-charge ratios can emerge from directional configurations after Phase Unfolding without assigning particle charge values in advance. The normalized directional ratios are compared with integer and fractional elementary-particle charge ratios. The study then distinguishes positional closure from directional neutrality and examines fractional-state composite formation, cross-branch redistribution, matter survival, self-neutralization, and the directional organization that may remain after composite closure.
 
+### 8. Data as Waves: A Relational Approach to Semiconductor Process Analysis Using Relative Phase
+
+**J. San Park, 2026**  
+**DOI:** [10.5281/zenodo.23191069](https://doi.org/10.5281/zenodo.23191069)
+
+Introduces a relational representation of semiconductor process data using relative phase and relational progression. The study identifies recurrent temporal structure directly from sensor data and examines whether sensor relationships and their progression provide complementary information for process representation and wafer-level outcome prediction. Public reproducibility code is provided with the Zenodo record.
+
 ---
 
 ## Interdisciplinary Extension — Persistence, Life, and Future Viability
