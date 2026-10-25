@@ -110,6 +110,30 @@ The Zenodo record is maintained as a single research package containing:
 
 The Concept DOI above represents the research package across Zenodo versions and should be preferred when referring to the package as a whole.
 
+### Temporal Accumulation Perception: Dynamic Relational Awareness through Time-Updated Future Occupancy
+
+**Paper, Verification Package & Four Demonstration Videos**  
+**J. San Park, 2026**  
+**Zenodo Concept DOI:** [10.5281/zenodo.23636899](https://doi.org/10.5281/zenodo.23636899)
+
+Temporal Accumulation Perception (TAP) studies dynamic environments through temporally connected motion histories, future-state predictions, and changing relationships between objects. It distinguishes **observation time** from **absolute future time** and compares predictions made at successive observation times for the **same future moment**, preserving how expected states and relationships are revised.
+
+Using selected scenarios from the **Waymo Open Motion Dataset**, the paper examines deceleration and turning predictions, updates to estimated meeting times between vehicles, and differences between predicted and observed inter-vehicle center distances. In the selected motion cases, history-based predictions showed lower errors than the simple comparison models.
+
+The research sequence is:
+
+**Observed Motion → Accumulated History → Future-State Prediction → Relational Update History → Comparison with Observed Motion**
+
+The Zenodo record includes:
+
+- **Research Paper (PDF)** — framework, mathematical representation, selected experiments, and discussion.
+- **Verification Package (ZIP)** — documentation, supporting numerical results, and scripts for checking selected reported values; not a full reproduction from the original Waymo dataset.
+- **Four Demonstration Videos (MP4)** — past motion trails and predicted future occupancy visualizations for Waymo Scenes 03 and 04.
+
+**Validation scope:** The reported experiments examine motion prediction, predicted meeting-time updates, and predicted-versus-observed center-distance differences. Systematic validation of future occupancy overlap histories and closed-loop vehicle control is left for future research.
+
+TAP is listed as an **applied research extension**, not as a demonstrated physical consequence of Phase Unfolding Theory. The Zenodo Concept DOI identifies the record across versions.
+
 ### Path-Governed Data Security: A Framework for Data Path Creation Control
 
 **J. San Park, 2026**  
