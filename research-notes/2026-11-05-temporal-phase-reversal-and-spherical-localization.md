@@ -197,3 +197,11 @@ Crucially, this particular formula scales as $m$. Applying it to a muon yields a
 > **The temporal coordinate keeps moving forward; matter may remain spatially localized because the orientation of its internal temporal-phase unfolding reverses and reconnects through intervals that are not directly observed as ordinary unfolding.**
 
 This note preserves the structural proposal and the provenance of its mathematical choices without claiming that existing wave equations, gravity, or quantum mechanics already establish the mechanism.
+
+## 9. Consolidated guiding sentence (2026-11-05)
+
+> **빛은 위상의 전진이 공간적 이동으로 누적되는 구조이고, 물질은 위상의 전진과 반전이 반복되어 공간적으로 유지되는 구조다.**
+
+> **Light is a structure in which forward phase unfolding accumulates as spatial propagation, whereas matter is a structure in which phase advance and reversal recur, allowing spatial localization.**
+
+In this formulation, **reversal concerns the forward unfolding component, not the underlying phase rotation direction or the global direction of time**. The same chosen hyperbolic branch is retained, and a localized matter structure can still move as a whole. The physical localization mechanism remains a working interpretation of phase unfolding.
