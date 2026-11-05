@@ -153,6 +153,11 @@ This applied study is maintained separately from the Phase Series: it uses the b
 
 ## Current Structural Research State
 
+### Current working note — temporal phase reversal and localized matter (2026-11-05)
+
+[Temporal Phase Reversal and the Localized Structure of Matter](research-notes/2026-11-05-temporal-phase-reversal-and-spherical-localization.md) records a candidate three-dimensional phase structure in which time advances continuously while matter's internal temporal-phase orientation reverses across proposed closed transition gaps. It distinguishes the established wave/phase identities, the open-interval accounting model, and unresolved links to spatial localization and gravity. This is a working hypothesis, not an established particle model.
+
+
 The current framework also distinguishes two structural levels at which the same phase concept is examined. The first is the unfolding of the background phase structure itself from a closed circular representation into an open hyperbolic structure. The second is the development of phase structures within a background in which a common progression, direction, and sequential order are already established.
 
 When the unfolded geometry is connected with relativistic motion, $t$ is treated as a **common progression** through which direction, sequential order, and rates of physical change can be defined. A displayed $t$ direction represents one directional case of the complete symmetric structure rather than an intrinsically preferred direction.
