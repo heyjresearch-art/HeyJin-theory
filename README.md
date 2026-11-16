@@ -75,6 +75,15 @@ Extends the framework to a three-phase geometry in which an open progression coe
 
 Examines whether discrete electric-charge ratios can emerge from directional configurations after Phase Unfolding without assigning particle charge values in advance. The normalized directional ratios are compared with integer and fractional elementary-particle charge ratios. The study then distinguishes positional closure from directional neutrality and examines fractional-state composite formation, cross-branch redistribution, matter survival, self-neutralization, and the directional organization that may remain after composite closure.
 
+
+### 8. Spherical Extension of Phase Unfolding: Geometric Structures of Spacetime, Light, and Matter
+
+**J. San Park, 2026**  
+**Zenodo Concept DOI:** [10.5281/zenodo.24248600](https://doi.org/10.5281/zenodo.24248600)
+
+Extends the circular-to-hyperbolic phase-unfolding geometry into a spherical representation, distinguishing the continuous unfolding of the background from the phase structures described within it. The paper compares continuously open temporal progression associated with light and a proposed repeating **Open (π) → Closed (π) → Open (−π) → Closed (π)** phase sequence associated with matter. It examines Compton-related time scales, candidate closed-transition intervals, and possible connections between accumulated closed intervals, time dilation, and gravity. Established geometric identities and relativistic correspondences are distinguished from proposed physical mechanisms; in particular, a quantitative link between open/closed time fractions and relativistic time dilation remains an open research question.
+
+
 ---
 
 ## Interdisciplinary Extension — Persistence, Life, and Future Viability
