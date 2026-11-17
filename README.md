@@ -160,6 +160,16 @@ This applied study is maintained separately from the Phase Series: it uses the b
 
 ---
 
+## Geometric Research Notes
+
+### Continuous Hyperbolic Paths through Expanding Circles: Three Derivative Representations (2026-11-17)
+
+[Read the research note](research-notes/2026-11-17-continuous-hyperbolic-path-polar-derivatives.md).
+
+Re-expresses the same hyperbola `(tan θ, sec θ)` as a continuous polar path `R(sin α, cos α)` with `α = arctan(sin θ)` and `R² cos(2α) = 1`. Compares derivatives with respect to the original circular phase angle θ, hyperbolic angle φ, and polar angle α. The polar derivative decomposes one tangent vector into radial and angular terms; this geometric decomposition is not by itself evidence of a physical internal rotation.
+
+---
+
 ## Current Structural Research State
 
 ### Current working note — temporal phase reversal and localized matter (2026-11-05)
